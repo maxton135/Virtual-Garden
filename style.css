@@ -1,0 +1,80 @@
+body {
+    background: url("img/vines-background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#titlebar {
+    float: top;
+
+    width: 95vw;
+    height: 10vh;
+    margin: 30px;
+    border: 2px solid black;
+    padding: 2px;
+
+    text-align: center;
+}
+
+#pot {
+    float: left;
+
+    width: 50vw;
+    height: 75vh;
+    margin: 30px;
+    border: 3px solid black;
+    padding:5px;
+
+}
+
+#text-display {
+    float: right;
+
+    width: 35vw;
+    height: 20vh;
+    margin: 30px;
+    border: 3px solid black;
+    padding: 5px;
+
+}
+
+#toolbar {
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 35vw;
+    height: 49vh;
+    margin: 30px;
+    border: 3px solid black;
+    padding: 5px;
+
+}
+
+#watercan {
+    float: top;
+    flex-direction: row;
+
+    width: 100%;
+    margin: 2px;
+    border: 2px solid black;
+    padding: 2px;
+
+    text-align: center;
+}
+
+#seedselect {
+    float: bottom;
+    flex-direction: row;
+
+    width: 100%;
+    margin: 2px;
+    border: 2px solid black;
+    padding: 2px;
+
+    text-align: center;
+}
